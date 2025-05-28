@@ -5,6 +5,7 @@
   padding: 0px 26px;
   height: 100vh;
   box-sizing: border-box;
+  pointer-events: none;
 }
 
 .logo {
