@@ -82,26 +82,22 @@
   margin: 2px 0;
   width: 60px;
   text-align: center;
-  cursor: none;
 }
 
 .time-button.highlighted {
   background-color: #3632a6;
   color: white;
-  cursor: none;
 }
 
 .time-button.highlighted1 {
   background-color: #acadd6;
   color: white;
-  cursor: none;
 }
 
 .time-button:disabled {
   background-color: transparent;
   color: #999;
   cursor: default;
-  cursor: none;
 }
 
 .appointment-container {
