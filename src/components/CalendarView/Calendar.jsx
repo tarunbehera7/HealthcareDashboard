@@ -50,32 +50,32 @@ const Calendar = () => {
           <div className="calendar-day">
             <div className="day-label">Mon</div>
             <div className="date">25</div>
-            <button className="time-button" disabled>10:00</button>
-            <button className="time-button" disabled>11:00</button>
-            <button className="time-button" disabled>12:00</button>
+            <button className="time-button">10:00</button>
+            <button className="time-button">11:00</button>
+            <button className="time-button">12:00</button>
           </div>
 
           <div className="calendar-day">
             <div className="day-label">Tues</div>
             <div className="date">26</div>
-            <button className="time-button" disabled>08:00</button>
-            <button className="time-button highlighted" disabled>09:00</button>
-            <button className="time-button" disabled>10:00</button>
+            <button className="time-button">08:00</button>
+            <button className="time-button highlighted">09:00</button>
+            <button className="time-button">10:00</button>
           </div>
 
           <div className="calendar-day">
             <div className="day-label">Wed</div>
             <div className="date">27</div>
-            <button className="time-button" disabled>12:00</button>
+            <button className="time-button">12:00</button>
             <button className="time-button disabled" disabled>—</button>
-            <button className="time-button" disabled>13:00</button>
+            <button className="time-button">13:00</button>
           </div>
 
           <div className="calendar-day">
             <div className="day-label">Thurs</div>
             <div className="date">28</div>
-            <button className="time-button highlighted1" disabled>10:00</button>
-            <button className="time-button" disabled>11:00</button>
+            <button className="time-button highlighted1">10:00</button>
+            <button className="time-button">11:00</button>
             <button className="time-button disabled" disabled>—</button>
           </div>
 
@@ -83,24 +83,24 @@ const Calendar = () => {
             <div className="day-label">Fri</div>
             <div className="date">29</div>
             <button className="time-button disabled" disabled>—</button>
-            <button className="time-button" disabled>14:00</button>
-            <button className="time-button" disabled>16:00</button>
+            <button className="time-button">14:00</button>
+            <button className="time-button">16:00</button>
           </div>
 
           <div className="calendar-day">
             <div className="day-label">Sat</div>
             <div className="date">30</div>
-            <button className="time-button highlighted1" disabled>12:00</button>
-            <button className="time-button " disabled>14:00</button>
-            <button className="time-button" disabled>15:00</button>
+            <button className="time-button highlighted1">12:00</button>
+            <button className="time-button ">14:00</button>
+            <button className="time-button">15:00</button>
           </div>
 
           <div className="calendar-day">
             <div className="day-label">Sun</div>
             <div className="date">31</div>
-            <button className="time-button highlighted2" disabled>09:00</button>
-            <button className="time-button " disabled>10:00</button>
-            <button className="time-button" disabled>11:00</button>
+            <button className="time-button highlighted2">09:00</button>
+            <button className="time-button ">10:00</button>
+            <button className="time-button">11:00</button>
           </div>
         </div>
       </div>
