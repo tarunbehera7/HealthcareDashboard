@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 16px 24px;
-  /* background-color: transparent; */
   background: linear-gradient(to right, white 52.8%, #f4f6fc 30%);
 }
 
@@ -80,18 +79,19 @@
   .header {
     justify-content: center;
     padding: 10px 16px;
-    background: linear-gradient(to right, white 90.4%,#f4f6fc 10%);;
+    background: linear-gradient(to right, white 90.4%, #f4f6fc 10%);
+    ;
   }
 
   .header-right {
-    /* display: flex; */
     width: 80%;
     padding-left: 20px;
   }
 
-  .header-left{
+  .header-left {
     display: none;
   }
+
   .search-bar {
     width: 80%;
     max-width: 400px;
@@ -104,16 +104,19 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
   .header-right {
     width: 100%;
     padding-left: 0;
     gap: 8px;
   }
+
   .search-bar {
     width: 100%;
     max-width: 180px;
     padding: 4px 6px;
   }
+
   .icon {
     font-size: 14px;
   }
