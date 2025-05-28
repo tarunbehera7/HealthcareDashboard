@@ -1,0 +1,54 @@
+.upcoming-schedule-container {
+      padding: 20px;
+      background-color: #f0f5fa;
+      border-radius: 10px;
+      width: fit-content;
+    }
+    .upcoming-schedule-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .day-schedule {
+      margin-bottom: 10px;
+      width: 550px;
+    }
+    
+    .day-label {
+      font-size: 14px;
+      color: #666;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .appointments-list {
+      display: flex;
+      gap: 20px;
+      width: 500px;
+    }
+    .simple-appointment-card {
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      background-color: #dde2f9;
+      border-radius: 10px;
+      width: 220px;
+    }
+    .simple-appointment-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .simple-appointment-type {
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
+    }
+    .simple-appointment-emoji {
+      font-size: 20px;
+    }
+    .simple-appointment-time {
+      font-size: 14px;
+      color: #666;
+    }

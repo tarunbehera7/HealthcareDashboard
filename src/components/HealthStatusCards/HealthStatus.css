@@ -1,0 +1,131 @@
+.health-status {
+  padding-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+.health-status-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.health-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 200px;
+  min-height: 100px;
+  background-color: #f0f5fa;
+}
+
+.health-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.health-emoji {
+  font-size: 40px;
+}
+
+.health-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.health-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #0b063d;
+}
+
+.health-date {
+  margin-left: 12px;
+  font-size: 12px;
+  color: #d1d3d6;
+  opacity: 1;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 10px;
+  margin: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+.arrow-button1 {
+  background: none;
+  text-align: right;
+  justify-content: right;
+  align-items: flex-end;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+  color: #adadde;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+  margin-top: 10px;
+  padding-right: 40px;
+}
+
+@media (max-width: 768px) {
+  .health-status-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+  }
+  .health-status{
+    padding-left: 10px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .health-status-container {
+    padding: 8px;
+    gap: 10px;
+    min-width: 100%;
+  }
+  .health-item {
+    width: 120px;
+    min-height: 60px;
+  }
+  .health-emoji {
+    font-size: 24px;
+  }
+  .health-name {
+    font-size: 12px;
+  }
+  .health-date {
+    font-size: 10px;
+  }
+  .progress-bar {
+    width: 90%;
+    height: 6px;
+  }
+  .arrow-button1 {
+    font-size: 8px;
+    padding-right: 10px;
+  }
+}

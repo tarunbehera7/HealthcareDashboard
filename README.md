@@ -1,12 +1,85 @@
-# React + Vite
+# FitPeo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FitPeo is a modern, responsive health dashboard web application designed to help users track their health status, appointments, and activities. The project features a clean UI, interactive components, and is optimized for both desktop and mobile devices.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dashboard Overview:** Visual summary of health metrics and upcoming appointments.
+- **Activity Feed:** Displays weekly activity and appointment trends.
+- **Anatomy Section:** Visual representation of body health status with labels.
+- **Calendar View:** Interactive calendar for tracking appointments and schedules.
+- **Health Status Cards:** Quick glance at key health indicators.
+- **Sidebar Navigation:** Easy access to different sections of the app.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile screens.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **Frontend:** React.js
+- **Styling:** CSS (with custom responsive media queries)
+- **Icons:** React Icons, FontAwesome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or above recommended)
+- npm or yarn
+
+### Installation
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd FitPeo
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+4. **Open in browser:**
+   Visit [http://localhost:5174](http://localhost:5174) (or the port shown in your terminal).
+
+## Project Structure
+```
+src/
+  components/
+    ActivityFeed/
+    AnatomySection/
+    CalendarView/
+    DashboardMainContent/
+    Header/
+    HealthStatusCards/
+    Sidebar/
+    SimpleAppointmentCard/
+    UpcomingSchedule/
+  App.jsx
+  App.css
+```
+
+## Customization
+- All UI components are modular and can be easily customized or extended.
+- Media queries are included in each component's CSS for mobile responsiveness.
+
+## Contributing
+Contributions are welcome! To contribute:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes
+4. Push to your fork and submit a pull request
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+- [React](https://reactjs.org/)
+- [FontAwesome](https://fontawesome.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+**FitPeo** – Your personal health dashboard, anywhere, anytime.
