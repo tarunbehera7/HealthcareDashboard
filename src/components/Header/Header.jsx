@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div className="header-left"> 
         <div className="profile">
-          <img src="../../../public/avatar.png" alt="User Avatar" />
+          <img src="/avatar.png" alt="User Avatar" />
         </div>
         <button className="add-btn" disabled>
           <FiPlus />
