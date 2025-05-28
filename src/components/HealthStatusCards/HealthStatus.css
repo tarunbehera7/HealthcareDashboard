@@ -108,19 +108,24 @@
     gap: 10px;
     min-width: 100%;
   }
+  
   .health-item {
     width: 120px;
     min-height: 60px;
   }
+  
   .health-emoji {
     font-size: 24px;
   }
+  
   .health-name {
     font-size: 12px;
   }
+  
   .health-date {
     font-size: 10px;
   }
+  
   .progress-bar {
     width: 90%;
     height: 6px;
