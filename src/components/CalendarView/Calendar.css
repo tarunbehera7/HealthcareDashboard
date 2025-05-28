@@ -56,9 +56,11 @@
 .calendar-grid .calendar-day:nth-child(7) .time-button.highlighted2 {
   background-color: #acadd6;
   color: white;
+  pointer-events: none;
 }
 .calendar-grid .calendar-day:nth-child(7) .time-button{
   color: #d3d5e2;
+  pointer-events: none;
 }
 
 .day-label {
@@ -82,22 +84,26 @@
   margin: 2px 0;
   width: 60px;
   text-align: center;
+  pointer-events: none;
 }
 
 .time-button.highlighted {
   background-color: #3632a6;
   color: white;
+  pointer-events: none;
 }
 
 .time-button.highlighted1 {
   background-color: #acadd6;
   color: white;
+  pointer-events: none;
 }
 
 .time-button:disabled {
   background-color: transparent;
   color: #999;
   cursor: default;
+  pointer-events: none;
 }
 
 .appointment-container {
