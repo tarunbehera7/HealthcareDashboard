@@ -75,8 +75,6 @@ Contributions are welcome! To contribute:
 3. Commit your changes
 4. Push to your fork and submit a pull request
 
-## License
-This project is licensed under the MIT License.
 
 ## Acknowledgements
 - [React](https://reactjs.org/)
@@ -85,4 +83,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**FitPeo** – Your personal health dashboard, anywhere, anytime.
+**HealthcareDashboard** – Your personal health dashboard, anywhere, anytime.
